@@ -1,0 +1,10 @@
+---
+- name: app-server
+  hosts: myapp-server
+  become: true
+  roles:
+    - nginx
+
+
+
+    for site.yml for creating the roles in nginx server 
