@@ -1,0 +1,8 @@
+---
+nginx_package: nginx
+nginx_service: nginx
+nginx_index_path: /var/www/html/index.html
+nginx_index_content: "Hello from {{ inventory_hostname }} via Ansible role"
+
+
+this file in cd /ansible-roles-demo/ roles/nginx/defaults/main.yml
