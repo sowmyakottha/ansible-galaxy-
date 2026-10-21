@@ -1,0 +1,9 @@
+---
+- name: Configure database server
+  hosts: myDb-server
+  become: true
+  roles:
+    - mysql
+
+
+    this files need to create in ansible-roles-demo in keep the file 
